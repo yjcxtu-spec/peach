@@ -17,7 +17,7 @@ jobs:
 
       - name: Set image name
         run: |
-          echo "IMAGE=ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/peach-arm64" >> "$GITHUB_ENV"
+          echo "IMAGE=ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/1027" >> "$GITHUB_ENV"
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
